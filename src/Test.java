@@ -35,7 +35,8 @@ public class Test {
 //
 //        dog1.makeSound();
 //        dog1.eat();
-//
+        
+//test the run method from parent class
 //        dog.run();
     }
 
