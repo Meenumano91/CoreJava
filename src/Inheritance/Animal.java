@@ -10,4 +10,9 @@ public class Animal {
     public void eat() {
         System.out.println("Animal eats meat");
     }
+    public void run()
+    {
+        System.out.println("Runs with four legs");
+    }
+
 }
