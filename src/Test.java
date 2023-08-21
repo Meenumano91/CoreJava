@@ -11,7 +11,7 @@ import Polymorphism.Car;
 
 
 
-/*Polymorphism*/
+/*Test Polymorphism
 public class Test {
     public static void main(String[] args) {
         Vehicle vehicle1 = new Car();
@@ -20,8 +20,8 @@ public class Test {
         vehicle1.Start(); // Output: Car starting...
         vehicle2.Start(); // Output: Bike starting...
     }
-}
-/*Abstraction
+}*/
+/*Test Abstraction
 public class Test {
     public static void main(String[] args) {
         Circle circle = new Circle(7);
