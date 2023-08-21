@@ -2,7 +2,7 @@ import Inheritance.Animal;
 import Inheritance.Cat;
 import Inheritance.Dog;
 import Encapsulation.Person;
-
+/*Test Encapsulation
 public class Test
 {
     public static void main(String[] args)
@@ -22,7 +22,7 @@ public class Test
 
     }
 }
-
+*/
 
 //        testInheritance();
 
