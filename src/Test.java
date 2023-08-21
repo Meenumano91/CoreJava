@@ -2,6 +2,22 @@ import Inheritance.Animal;
 import Inheritance.Cat;
 import Inheritance.Dog;
 import Encapsulation.Person;
+import Abstraction.Circle;
+import Abstraction.Rectangle;
+import Abstraction.Shape;
+
+/*Abstraction*/
+public class Test {
+    public static void main(String[] args) {
+        Circle circle = new Circle(7);
+        Rectangle rectangle = new Rectangle(4, 6);
+
+          circle.displayArea();
+        rectangle.displayArea();
+
+    }
+}
+
 /*Test Encapsulation
 public class Test
 {
@@ -27,9 +43,9 @@ public class Test
 //        testInheritance();
 
 
-    //private static void testInheritance() {
+//private static void testInheritance() {
 
-        // Inheritance
+// Inheritance
 //        Animal animal=new Animal();
 //        Animal cat=new Cat();
 //        Animal dog=new Dog();
