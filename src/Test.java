@@ -5,7 +5,22 @@ import Encapsulation.Person;
 import Abstraction.Circle;
 import Abstraction.Rectangle;
 import Abstraction.Shape;
+import Polymorphism.Vehicle;
+import Polymorphism.Bike;
+import Polymorphism.Car;
 
+
+
+/*Polymorphism*/
+public class Test {
+    public static void main(String[] args) {
+        Vehicle vehicle1 = new Car();
+        Vehicle vehicle2 = new Bike();
+
+        vehicle1.Start(); // Output: Car starting...
+        vehicle2.Start(); // Output: Bike starting...
+    }
+}
 /*Abstraction
 public class Test {
     public static void main(String[] args) {
