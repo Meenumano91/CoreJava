@@ -6,7 +6,7 @@ import Abstraction.Circle;
 import Abstraction.Rectangle;
 import Abstraction.Shape;
 
-/*Abstraction*/
+/*Abstraction
 public class Test {
     public static void main(String[] args) {
         Circle circle = new Circle(7);
@@ -16,7 +16,7 @@ public class Test {
         rectangle.displayArea();
 
     }
-}
+}*/
 
 /*Test Encapsulation
 public class Test
