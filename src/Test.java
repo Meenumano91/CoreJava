@@ -18,27 +18,11 @@ public class Test
         System.out.println("Updated Name :" +person.getName());
         System.out.println("Updated Age :" + person.getAge());
 
+        person.setAge(-2);
+
     }
 }
-/*public class Test {
-    public static void main(String[] args) {
 
-
-            Person person = new Person("Alice", 30);
-
-            System.out.println("Name: " + person.getName());
-            System.out.println("Age: " + person.getAge());
-
-            person.setName("Alicia");
-            person.setAge(28);
-
-            System.out.println("Updated Name: " + person.getName());
-            System.out.println("Updated Age: " + person.getAge());
-
-            person.setAge(-5);
-
-        }
-    }*/
 
 //        testInheritance();
 

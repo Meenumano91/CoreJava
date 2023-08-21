@@ -26,11 +26,12 @@ public class Person{
 
     public void setAge(int newAge)
     {
-        if(age>=0)
+        if(newAge>=0)
         {
             age=newAge;
         }
-        else {
+        else
+        {
             System.out.println("Invalid Age");
         }
     }
