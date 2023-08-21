@@ -1,4 +1,5 @@
 package Encapsulation;
+
 public class Person{
     private String name;
     private int age;
@@ -19,9 +20,12 @@ public class Person{
         return age;
     }
 
-    public void setName(String newName)
+    public void setName(String name)
     {
-        name =newName;
+       if(name.equals( "sethu") || name.equals("Meenu") || name.equals("sethu meenakshi"))
+       {
+           this.name =name;
+       }
     }
 
     public void setAge(int newAge)

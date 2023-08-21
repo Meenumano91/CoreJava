@@ -2,7 +2,7 @@ import Inheritance.Animal;
 import Inheritance.Cat;
 import Inheritance.Dog;
 import Encapsulation.Person;
-/*Test Encapsulation
+/*Test Encapsulation*/
 public class Test
 {
     public static void main(String[] args)
@@ -12,7 +12,7 @@ public class Test
         System.out.println("Name  :"+person.getName());
         System.out.println("Age :"+person.getAge());
 
-        person.setName("Meenu");
+        person.setName("Meen");
         person.setAge(32);
 
         System.out.println("Updated Name :" +person.getName());
@@ -22,7 +22,7 @@ public class Test
 
     }
 }
-*/
+
 
 //        testInheritance();
 
